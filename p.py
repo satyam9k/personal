@@ -12,9 +12,19 @@ def main():
     )
 
     st.markdown(
+        "<h3 style='text-align: center; color: #A5F1F7; font-family: Lobster;'>Here's some flowers for you 🌹🌻💐🌼</h3>",
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
         "<h3 style='text-align: center; color: #A5F1F7; font-family: Lobster;'>Click ❤️ to reveal a message </h3>",
         unsafe_allow_html=True
     )
+
+    play_button = st.button("Play Me")
+    if play_button:
+        st.audio("song.mp3", format="audio/mp3", start_time=0)
+        st.success("Enjoy the song!")
 
     if st.button("❤️"):
         st.markdown(
