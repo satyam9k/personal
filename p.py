@@ -7,7 +7,7 @@ def main():
     )
 
     st.markdown(
-        "<h1 style='text-align: center; color: Maroon; font-family: Lobster;'>My Sweet Love🥰</h1>",
+        "<h1 style='text-align: center; color: Salmon; font-family: Lobster;'>My Sweet Love🥰</h1>",
         unsafe_allow_html=True
     )
 
