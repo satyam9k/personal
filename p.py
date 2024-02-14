@@ -7,18 +7,18 @@ def main():
     )
 
     st.markdown(
-        "<h1 style='text-align: center; color: white;'>My Sweet Love</h1>",
+        "<h1 style='text-align: center; color: white; font-family: Lobster;'>My Sweet Love</h1>",
         unsafe_allow_html=True
     )
 
     st.markdown(
-        "<h3 style='text-align: center; color: white;'>Click the heart to reveal a message ❤️</h3>",
+        "<h3 style='text-align: center; color: white; font-family: Lobster;'>Click the heart to reveal a message ❤️</h3>",
         unsafe_allow_html=True
     )
 
     if st.button("❤️"):
         st.markdown(
-            "<p style='color: #ffcccc; font-size: 24px; font-family: Lobster; text-align: center;'>"
+            "<p style='color: #ffcccc; font-size: 24px; font-family: Caveat; text-align: center;'>"
             "I Love You My Gorgeous, My Precious I am so Grateful for you<br><br>"
             "Cause all of the small things that you do<br>"
             "Are what remind me why I fell for you<br>"
