@@ -21,7 +21,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    if st.button("❤️") or st.button("Play Me"):
+    if st.button("❤️"):
         st.markdown(
             "<p style='color: #ffcccc; font-size: 24px; font-family: Comic Sans MS; text-align: center;'>"
             "I Love You My Gorgeous, My Precious I am so Grateful for you<br><br>"
