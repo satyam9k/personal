@@ -21,11 +21,6 @@ def main():
         unsafe_allow_html=True
     )
 
-    play_button = st.button("Play Me")
-    if play_button:
-        st.audio("song.mp3", format="audio/mp3", start_time=0)
-        st.success("Enjoy the song!")
-
     if st.button("❤️"):
         st.markdown(
             "<p style='color: #ffcccc; font-size: 24px; font-family: Comic Sans MS; text-align: center;'>"
@@ -38,6 +33,11 @@ def main():
             "</p>",
             unsafe_allow_html=True
         )
+
+   play_button = st.button("Play Me")
+    if play_button:
+        st.audio("song.mp3", format="audio/mp3", start_time=0)
+        st.success("Enjoy the playlist!")
 
 if __name__ == "__main__":
     main()
