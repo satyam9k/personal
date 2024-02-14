@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     st.set_page_config(
-        page_title="Pixel Art Surprise",
+        page_title="Heyyy Priyansha!!!",
         page_icon="❤️"
     )
 
@@ -16,8 +16,18 @@ def main():
         unsafe_allow_html=True
     )
 
-    if st.button("Press me"):
-        st.write("I Love You My Gorgeous, My Precious I am so Grateful for you")
+    if st.button("❤️"):
+        st.markdown(
+            "<p style='color: #ffcccc; font-size: 16px; font-family: Lobster;'>"
+            "I Love You My Gorgeous, My Precious I am so Grateful for you<br><br>"
+            "Cause all of the small things that you do<br>"
+            "Are what remind me why I fell for you<br>"
+            "And when we're apart, and I'm missing you<br>"
+            "I close my eyes and all I see is you<br>"
+            "And the small things you do"
+            "</p>",
+            unsafe_allow_html=True
+        )
 
 if __name__ == "__main__":
     main()
