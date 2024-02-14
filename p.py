@@ -12,7 +12,7 @@ def main():
     )
 
     st.markdown(
-        "<h3 style='text-align: center; color: #A5F1F7; font-family: Lobster;'>Here's some flowers for you 🌹🌻💐🌼</h3>",
+        "<h3 style='text-align: center; color: #A5F1F7; font-family: Lobster;'>Here's some flowers for you hehe ;) 🌹🌻💐🌼</h3>",
         unsafe_allow_html=True
     )
 
