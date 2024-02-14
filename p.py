@@ -24,7 +24,7 @@ def main():
     if st.button("❤️"):
         st.markdown(
             "<p style='color: #ffcccc; font-size: 24px; font-family: Comic Sans MS; text-align: center;'>"
-            "I Love You My Gorgeous, My Precious I am so Grateful for you<br><br>"
+            "I Love You My Gorgeous, My Precious I am so Grateful for you :)<br><br>"
             "Cause all of the small things that you do<br>"
             "Are what remind me why I fell for you<br>"
             "And when we're apart, and I'm missing you<br>"
@@ -34,7 +34,7 @@ def main():
             unsafe_allow_html=True
         )
         st.audio("song.mp3", format="audio/mp3", start_time=0)
-        st.success("Enjoy the playlist!")
+        st.success("Enjoy the playlist!   I Love You SO SO SO Much!!!!!")
 
    
 
