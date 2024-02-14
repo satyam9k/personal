@@ -18,7 +18,7 @@ def main():
 
     if st.button("❤️"):
         st.markdown(
-            "<p style='color: #ffcccc; font-size: 24px; font-family: Caveat; text-align: center;'>"
+            "<p style='color: #ffcccc; font-size: 24px; font-family: Comic Sans MS; text-align: center;'>"
             "I Love You My Gorgeous, My Precious I am so Grateful for you<br><br>"
             "Cause all of the small things that you do<br>"
             "Are what remind me why I fell for you<br>"
